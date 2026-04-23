@@ -1,8 +1,12 @@
 ---
 title: "Python pdfplumber包"
+
 description: "Python pdfplumber包相关知识。"
+
 date: 2026-04-21
+
 tags: [Python, pdfplumber]
+
 sidebar: auto
 ---
 

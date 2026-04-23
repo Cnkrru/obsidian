@@ -1,8 +1,12 @@
 ---
 title: "Python mouse包"
+
 description: "Python mouse包相关知识。"
+
 date: 2026-04-21
+
 tags: [Python, mouse]
+
 sidebar: auto
 ---
 

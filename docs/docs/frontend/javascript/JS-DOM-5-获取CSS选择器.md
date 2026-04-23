@@ -1,14 +1,18 @@
 ---
 title: "JavaScript 获取CSS选择器"
+
 description: "JavaScript 获取CSS选择器的方法，包括querySelector、querySelectorAll等推荐方法和其他了解即可的方法。"
+
 date: 2026-04-21
+
 tags: [JavaScript, DOM, CSS选择器]
+
 sidebar: auto
 ---
 
 #JavaScript
 
-======================================================
+---
 ## 推荐使用的方法（重点）
 
 | 方法               | 语法                                  | 参数                  | 描述                                              |
@@ -16,7 +20,7 @@ sidebar: auto
 | querySelector    | document.querySelector('css选择器')    | 包含一个或多个有效的CSS选择器字符串 | CSS选择器匹配的第一个元素，一个HTMLElement对象。如果没有匹配到，则返回null。 |
 | querySelectorAll | document.querySelectorAll('css选择器') | 包含一个或多个有效的CSS选择器字符串 | CSS选择器匹配的NodeList对象集合                           |
 
-======================================================
+---
 ## 了解即可的方法
 
 | 方法                     | 语法                                   | 参数       | 描述                     |
@@ -25,7 +29,7 @@ sidebar: auto
 | getElementsByTagName   | document.getElementsByTagName('div') | 标签名      | 根据标签获取一类元素，获取页面所有div   |
 | getElementsByClassName | document.getElementsByClassName('w') | 类名       | 根据类名获取元素，获取页面所有类名为w的元素 |
 
-======================================================
+---
 ## 推荐方法示例
 
 ### 完整HTML示例
@@ -119,4 +123,4 @@ sidebar: auto
 </html>
 ```
 
-======================================================
+---

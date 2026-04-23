@@ -1,14 +1,18 @@
 ---
 title: "CSS 渐变"
+
 description: "CSS 渐变相关知识，包括线性渐变和径向渐变。"
+
 date: 2026-04-21
+
 tags: [CSS, 渐变]
+
 sidebar: auto
 ---
 
 #CSS
 
-======================================================
+---
 ## 1. 线性渐变
 
 - **属性**：
@@ -37,7 +41,7 @@ sidebar: auto
   background-image: linear-gradient(to right, red 0%, yellow 50%, blue 100%);
   ```
 
-======================================================
+---
 ## 2. 径向渐变
 
 - **作用**：给按钮添加高光效果
@@ -70,4 +74,4 @@ sidebar: auto
   background-image: radial-gradient(100px 50px at center, red, blue);
   ```
 
-=======================================================
+---=

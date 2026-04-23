@@ -1,14 +1,18 @@
 ---
 title: "JavaScript 数据存储"
+
 description: "JavaScript 数据存储相关知识，包括变量、常量、数据类型、数组、字符串和对象。"
+
 date: 2026-04-21
+
 tags: [JavaScript, 数据存储]
+
 sidebar: auto
 ---
 
 #JavaScript
 
-======================================================
+---
 ## 变量和常量
 
 ### 1. 变量
@@ -25,7 +29,7 @@ sidebar: auto
   let [a, b] = [1, 2];
   ```
 
-======================================================
+---
 ### 2. 常量
 
 - **声明**：使用 const
@@ -41,61 +45,56 @@ sidebar: auto
   obj.age = 18; // 可以
   ```
 
-======================================================
-## 数据类型
+---
+## 数据类型（Python中没有的）
 
-### 1. 数字类型
+### 1. undefined
 
-- **类型**：整数、浮点数
+- **说明**：表示未定义的值，变量声明但未赋值时的默认值
 
   ```javascript
-  let num1 = 10;
-  let num2 = 3.14;
+  let x;
+  console.log(x); // undefined
   ```
 
-- **特殊值**：Infinity、NaN
+- **类型检测**：
 
   ```javascript
-  let inf = Infinity;
-  let nan = NaN;
-  ```
-
-- **检测类型**：
-
-  ```javascript
-  typeof 10; // 'number'
-  typeof 'hello'; // 'string'
-  typeof true; // 'boolean'
-  typeof []; // 'object'
-  typeof {}; // 'object'
-  typeof null; // 'object'（历史遗留）
   typeof undefined; // 'undefined'
   ```
 
-- **显式转换**：
+### 2. Symbol
+
+- **说明**：ES6新增，表示唯一的、不可变的值，用于对象属性的键
 
   ```javascript
-  Number('123'); // 123
-  String(123); // '123'
-  Boolean(0); // false
-  Boolean(''); // false
-  Boolean(null); // false
-  Boolean(undefined); // false
-  Boolean(1); // true
-  Boolean('hello'); // true
+  const sym1 = Symbol('description');
+  const sym2 = Symbol('description');
+  console.log(sym1 === sym2); // false
   ```
 
-- **隐式转换**：
+- **类型检测**：
 
   ```javascript
-  1 + '2'; // '12'（数字转字符串）
-  '5' - 2; // 3（字符串转数字）
-  '' == false; // true（隐式布尔转换）
-  // 假值：false, 0, '', null, undefined, NaN
-  // 真值：除假值外的所有值
+  typeof Symbol(); // 'symbol'
   ```
 
-======================================================
+### 3. BigInt
+
+- **说明**：ES6新增，表示任意精度的整数
+
+  ```javascript
+  const bigInt = 9007199254740991n;
+  const anotherBigInt = BigInt(9007199254740991);
+  ```
+
+- **类型检测**：
+
+  ```javascript
+  typeof 1n; // 'bigint'
+  ```
+
+---
 ### 2. 数组
 
 - **创建**：
@@ -136,7 +135,7 @@ sidebar: auto
   }
   ```
 
-======================================================
+---
 ### 3. 字符串
 
 - **创建**：单引号、双引号、反引号
@@ -151,7 +150,7 @@ sidebar: auto
   str.length; // 5
   ```
 
-======================================================
+---
 ### 4. 对象
 
 - **创建**：
@@ -206,4 +205,4 @@ sidebar: auto
   }
   ```
 
-======================================================
+---

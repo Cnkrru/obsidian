@@ -1,14 +1,18 @@
 ---
 title: "JavaScript 修改选择器属性"
+
 description: "JavaScript 修改选择器属性的方法，包括通过classList操作类控制CSS、通过style属性操作CSS和操作类名(className)操作CSS。"
+
 date: 2026-04-21
+
 tags: [JavaScript, DOM, 选择器属性]
+
 sidebar: auto
 ---
 
 #JavaScript
 
-======================================================
+---
 ## 操作元素样式属性
 
 | 方法 | 语法 | 描述 |
@@ -17,7 +21,7 @@ sidebar: auto
 | 通过style属性操作CSS | 对象.style.样式属性 = 值 | 直接修改元素的行内样式 |
 | 操作类名(className)操作CSS | 元素.className = '类名' | 通过修改类名来应用CSS样式，会覆盖原有类名 |
 
-======================================================
+---
 ## 示例代码
 
 ### 1. 通过classList操作类控制CSS示例（推荐）
@@ -74,4 +78,4 @@ box.className = 'box active'; // 保留原有类名并添加新类名
 // .active { background-color: lightgreen; border: 2px solid green; }
 ```
 
-======================================================
+---

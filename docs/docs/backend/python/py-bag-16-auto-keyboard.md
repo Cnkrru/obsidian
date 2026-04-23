@@ -1,8 +1,12 @@
 ---
 title: "Python keyboard包"
+
 description: "Python keyboard包相关知识。"
+
 date: 2026-04-21
+
 tags: [Python, keyboard]
+
 sidebar: auto
 ---
 

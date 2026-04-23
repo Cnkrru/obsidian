@@ -1,8 +1,12 @@
 ---
 title: "JavaScript 事件（键鼠监听）"
+
 description: "JavaScript 事件（键鼠监听）的使用方法，包括事件监听语法、事件监听三要素、常用事件类型和事件对象。"
+
 date: 2026-04-21
+
 tags: [JavaScript, DOM, 事件, 键鼠监听]
+
 sidebar: auto
 ---
 
